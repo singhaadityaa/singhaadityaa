@@ -1,112 +1,61 @@
 <svg width="1200" height="360" viewBox="0 0 1200 360" fill="none" xmlns="http://www.w3.org/2000/svg">
   <defs>
-    <filter id="glow" x="-100%" y="-100%" width="300%" height="300%">
-      <feGaussianBlur stdDeviation="7" result="blur"/>
-      <feMerge>
-        <feMergeNode in="blur"/>
-        <feMergeNode in="SourceGraphic"/>
-      </feMerge>
+    <pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse">
+      <path d="M 28 0 L 0 0 0 28" fill="none" stroke="#786c5c" stroke-opacity=".10" stroke-width="1"/>
+    </pattern>
+    <filter id="softGlow" x="-100%" y="-100%" width="300%" height="300%">
+      <feGaussianBlur stdDeviation="5" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
     </filter>
-
-    <linearGradient id="trail" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0" stop-color="#3e6ae1" stop-opacity="0"/>
-      <stop offset=".5" stop-color="#3e6ae1" stop-opacity=".75"/>
-      <stop offset="1" stop-color="#3e6ae1" stop-opacity="0"/>
+    <linearGradient id="flowLine" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#b08b57" stop-opacity="0"/>
+      <stop offset=".5" stop-color="#b08b57" stop-opacity=".75"/>
+      <stop offset="1" stop-color="#b08b57" stop-opacity="0"/>
     </linearGradient>
   </defs>
-
   <style>
-    .bg { fill:#ffffff; }
-    .title { fill:#111827; }
-    .text { fill:#4b5563; }
-    .muted { fill:#9ca3af; }
-    .rule { stroke:#e5e7eb; }
-    .node { fill:#ffffff; stroke:#d1d5db; }
-    .eq { fill:#c7d2fe; opacity:.62; }
-    .eq2 { fill:#dbe4ff; opacity:.48; }
-
-    @media (prefers-color-scheme: dark) {
-      .bg { fill:#0d1117; }
-      .title { fill:#f0f6fc; }
-      .text { fill:#8b949e; }
-      .muted { fill:#6e7681; }
-      .rule { stroke:#30363d; }
-      .node { fill:#0d1117; stroke:#30363d; }
-      .eq { fill:#3e6ae1; opacity:.34; }
-      .eq2 { fill:#7aa2ff; opacity:.20; }
-    }
+    .bg{fill:#f5f1e8}.panel{fill:#f8f4ec}.grid{fill:url(#grid);opacity:.9}.title{fill:#1f1c18}.text{fill:#5f564d}.muted{fill:#8a8074}.rule{stroke:#d8cfc2}.accent{fill:#7d8b73}.accent2{fill:#b08b57}.node{fill:#faf7f1;stroke:#cfc4b4}.eq{fill:#9a8f80;opacity:.55}.eq2{fill:#7d8b73;opacity:.28}.tiny{fill:#8a8074}
+    @media(prefers-color-scheme:dark){.bg{fill:#151311}.panel{fill:#1a1714}.grid{opacity:.35}.title{fill:#f2ece2}.text{fill:#b2a89c}.muted{fill:#867d73}.rule{stroke:#312b24}.accent{fill:#92a185}.accent2{fill:#c39a62}.node{fill:#191613;stroke:#3a322b}.eq{fill:#a59887;opacity:.28}.eq2{fill:#92a185;opacity:.16}.tiny{fill:#867d73}}
   </style>
-
   <rect class="bg" width="1200" height="360" rx="20"/>
+  <rect class="panel" width="1200" height="360" rx="20"/>
+  <rect class="grid" width="1200" height="360" rx="20"/>
 
-  <!-- faint chemistry layer -->
-  <g font-family="Georgia, Times New Roman, serif" font-style="italic">
-    <text class="eq2" x="760" y="78" font-size="24">
-      C₁V₁ = C₂V₂
-      <animate attributeName="opacity" values=".18;.34;.18" dur="5s" repeatCount="indefinite"/>
-    </text>
+  <g font-family="Georgia,Times New Roman,serif" font-style="italic">
+    <text class="eq2" x="760" y="72" font-size="24">C₁V₁ = C₂V₂<animate attributeName="opacity" values=".18;.34;.18" dur="5.5s" repeatCount="indefinite"/></text>
+    <text class="eq" x="834" y="252" font-size="22">pH = −log[H⁺]<animate attributeName="opacity" values=".22;.40;.22" dur="4.8s" begin=".5s" repeatCount="indefinite"/></text>
+    <text class="eq2" x="735" y="309" font-size="20">NaOCl + H₂O ⇌ HOCl + Na⁺ + OH⁻<animate attributeName="opacity" values=".14;.28;.14" dur="6s" begin="1.1s" repeatCount="indefinite"/></text>
+  </g>
 
-    <text class="eq" x="855" y="252" font-size="22">
-      pH = −log[H⁺]
-      <animate attributeName="opacity" values=".22;.40;.22" dur="4.6s" begin=".6s" repeatCount="indefinite"/>
-    </text>
-
-    <text class="eq2" x="760" y="314" font-size="20">
-      NaOCl + H₂O ⇌ HOCl + Na⁺ + OH⁻
-      <animate attributeName="opacity" values=".14;.28;.14" dur="5.8s" begin="1.1s" repeatCount="indefinite"/>
-    </text>
+  <g font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Inter,Arial,sans-serif" font-size="11" letter-spacing=".8">
+    <text class="tiny" x="72" y="54">PROFILE / OPERATOR NOTE</text>
+    <text class="tiny" x="944" y="54">SYSTEM CONTEXT / INSTITUTIONAL HYGIENE</text>
   </g>
 
   <g opacity="0">
-    <animate attributeName="opacity" from="0" to="1" dur=".7s" fill="freeze"/>
-    <rect x="72" y="58" width="54" height="6" rx="3" fill="#3e6ae1">
-      <animate attributeName="width" values="18;78;54" keyTimes="0;.65;1" dur="1.2s" fill="freeze"/>
-    </rect>
-    <text class="title" x="72" y="139" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Inter,Arial,sans-serif" font-size="60" font-weight="650" letter-spacing="-2">Aditya Kumar</text>
-    <text class="text" x="72" y="190" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Inter,Arial,sans-serif" font-size="24" font-weight="500">CEO, Alle’s ClinX</text>
+    <animate attributeName="opacity" from="0" to="1" dur=".8s" fill="freeze"/>
+    <rect class="accent" x="72" y="66" width="58" height="6" rx="3"><animate attributeName="width" values="18;82;58" keyTimes="0;.65;1" dur="1.25s" fill="freeze"/></rect>
+    <text class="title" x="72" y="142" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Inter,Arial,sans-serif" font-size="60" font-weight="650" letter-spacing="-2">Aditya Kumar</text>
+    <text class="text" x="72" y="193" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Inter,Arial,sans-serif" font-size="24" font-weight="500">CEO, Alle’s ClinX</text>
   </g>
 
   <line class="rule" x1="72" y1="232" x2="1128" y2="232" stroke-width="1"/>
+  <text class="text" x="72" y="282" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Inter,Arial,sans-serif" font-size="20">Institutional hygiene systems · chemistry · procurement · data · AI</text>
+  <text class="muted" x="72" y="315" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Inter,Arial,sans-serif" font-size="15" letter-spacing=".28">building the intelligence around the chemical</text>
 
-  <text class="text" x="72" y="282" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Inter,Arial,sans-serif" font-size="20">
-    Institutional hygiene systems · chemistry · procurement · data · AI
-  </text>
-
-  <text class="muted" x="72" y="316" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Inter,Arial,sans-serif" font-size="15" letter-spacing=".3">
-    building the intelligence around the chemical
-  </text>
-
-  <!-- animated system nodes -->
-  <g transform="translate(855 138)">
-    <circle class="node" cx="0" cy="0" r="52"/>
-    <circle class="node" cx="118" cy="0" r="52"/>
-    <circle class="node" cx="236" cy="0" r="52"/>
-
-    <line class="rule" x1="52" y1="0" x2="66" y2="0"/>
-    <line class="rule" x1="170" y1="0" x2="184" y2="0"/>
-
-    <circle cx="0" cy="0" r="8" fill="#3e6ae1">
-      <animate attributeName="r" values="7;10;7" dur="2.2s" repeatCount="indefinite"/>
-      <animate attributeName="opacity" values=".65;1;.65" dur="2.2s" repeatCount="indefinite"/>
-    </circle>
-
-    <circle cx="118" cy="0" r="8" fill="#3e6ae1" opacity=".5">
-      <animate attributeName="r" values="7;10;7" dur="2.2s" begin=".7s" repeatCount="indefinite"/>
-      <animate attributeName="opacity" values=".4;1;.4" dur="2.2s" begin=".7s" repeatCount="indefinite"/>
-    </circle>
-
-    <circle cx="236" cy="0" r="8" fill="#3e6ae1" opacity=".35">
-      <animate attributeName="r" values="7;10;7" dur="2.2s" begin="1.4s" repeatCount="indefinite"/>
-      <animate attributeName="opacity" values=".3;1;.3" dur="2.2s" begin="1.4s" repeatCount="indefinite"/>
-    </circle>
-
-    <circle cx="0" cy="0" r="5" fill="#3e6ae1" filter="url(#glow)">
-      <animateMotion dur="3.8s" repeatCount="indefinite" path="M0 0 H236"/>
-      <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;.08;.92;1" dur="3.8s" repeatCount="indefinite"/>
-    </circle>
+  <g transform="translate(842 135)">
+    <circle class="node" cx="0" cy="0" r="50"/><circle class="node" cx="118" cy="0" r="50"/><circle class="node" cx="236" cy="0" r="50"/>
+    <line class="rule" x1="50" y1="0" x2="68" y2="0"/><line class="rule" x1="168" y1="0" x2="186" y2="0"/>
+    <circle cx="0" cy="0" r="8" class="accent"><animate attributeName="r" values="7;10;7" dur="2.4s" repeatCount="indefinite"/><animate attributeName="opacity" values=".65;1;.65" dur="2.4s" repeatCount="indefinite"/></circle>
+    <circle cx="118" cy="0" r="8" class="accent2" opacity=".6"><animate attributeName="r" values="7;10;7" dur="2.4s" begin=".7s" repeatCount="indefinite"/><animate attributeName="opacity" values=".45;1;.45" dur="2.4s" begin=".7s" repeatCount="indefinite"/></circle>
+    <circle cx="236" cy="0" r="8" class="accent" opacity=".4"><animate attributeName="r" values="7;10;7" dur="2.4s" begin="1.4s" repeatCount="indefinite"/><animate attributeName="opacity" values=".3;1;.3" dur="2.4s" begin="1.4s" repeatCount="indefinite"/></circle>
+    <circle cx="0" cy="0" r="5" class="accent2" filter="url(#softGlow)"><animateMotion dur="4s" repeatCount="indefinite" path="M0 0 H236"/><animate attributeName="opacity" values="0;1;1;0" keyTimes="0;.08;.92;1" dur="4s" repeatCount="indefinite"/></circle>
   </g>
 
-  <rect x="820" y="268" width="310" height="2" fill="url(#trail)">
-    <animate attributeName="x" values="760;900;760" dur="6s" repeatCount="indefinite"/>
-  </rect>
+  <rect x="812" y="270" width="318" height="2" fill="url(#flowLine)"><animate attributeName="x" values="760;890;760" dur="6.5s" repeatCount="indefinite"/></rect>
+
+  <g font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Inter,Arial,sans-serif" font-size="11" letter-spacing=".5">
+    <text class="tiny" x="838" y="186">dilution</text><text class="tiny" x="952" y="186">evidence</text><text class="tiny" x="1068" y="186">supply</text>
+    <text class="tiny" x="840" y="210">C₁V₁ = C₂V₂</text><text class="tiny" x="946" y="210">label ↔ sds ↔ tds</text><text class="tiny" x="1062" y="210">cycle planning</text>
+  </g>
 </svg>
