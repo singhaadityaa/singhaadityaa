@@ -1,63 +1,65 @@
 <div align="center">
 
-# Aditya Singh
+# Aditya Kumar
 
-### Building chemistry-led systems for safer, more consistent facilities
+### CEO, Alle’s ClinX
 
-I build **Alle’s ClinX** at the intersection of institutional cleaning chemistry, compliance, procurement, software, and operational design for India.
+Building institutional hygiene systems around chemistry, procurement, documentation, data and AI.
 
-[Website](https://allesclinx.com/) · [Alle’s ClinX on GitHub](https://github.com/alles-clinx) · [Insights](https://allesclinx.com/insights/) · [Document Center](https://allesclinx.com/support/media-documents/)
+[Alle’s ClinX](https://allesclinx.com/) · [GitHub Organization](https://github.com/alles-clinx) · [Solutions](https://allesclinx.com/solutions/) · [Insights](https://allesclinx.com/insights/)
 
 </div>
 
-## What I’m building
+---
 
-My work turns complex product knowledge—formulation, dilution, safety, documentation, procurement, and application—into systems that facility teams can understand and use consistently.
+## What I work on
 
-- **Alle’s ClinX** — institutional hygiene and cleaning-chemistry systems
-- **Nova** — AI-assisted hygiene guidance and product knowledge
-- **Metricon** — chemistry, dosage, procurement, and cost tools
-- **Technical documentation** — structured SDS, TDS, product, and compliance resources
-- **Digital operations** — usable product data, commerce, support, and facility workflows
+I lead **Alle’s ClinX**, the institutional hygiene systems brand operated by Champaran Innovatives Private Limited.
 
-## Areas of focus
+My work sits between the physical realities of facility hygiene and the systems around them: product strategy, procurement, recurring supply, technical documentation, usage intelligence and practical software.
 
-| Area | Focus |
+I am interested in making institutional cleaning less dependent on fragmented information and more measurable at the point where products are specified, purchased, used and reviewed.
+
+## The system
+
+| Layer | What it does |
 |---|---|
-| Chemistry | Formulation thinking, dilution, use cases, and safety |
-| Hygiene systems | Repeatable workflows for institutional environments |
-| Compliance | Clear technical documentation and responsible guidance |
-| Product engineering | Practical digital tools for procurement and operations |
-| Knowledge design | Making complex information useful at the point of work |
+| [Solutions](https://allesclinx.com/solutions/) | Connects facility requirements with product and procurement decisions |
+| [Nova](https://allesclinx.com/about-nova/) | AI-assisted guidance grounded in product and technical information |
+| [Metricon](https://allesclinx.com/metricon/) | Chemistry, usage, procurement and cost calculators |
+| [CheckMate](https://allesclinx.com/checkmate/) | Evidence checks across products, documents, procurement and delivery |
+| [Plus](https://allesclinx.com/plus/) | Recurring institutional supply and operating support |
+| [Document Center](https://allesclinx.com/support/media-documents/) | Public technical and operational documentation |
 
-## Selected work
+## How I think about the business
 
-| Project | Purpose |
-|---|---|
-| [Alle’s ClinX](https://allesclinx.com/) | Institutional cleaning chemistry and hygiene systems for India |
-| [Public organization profile](https://github.com/alles-clinx) | Open resources, product knowledge, and technical direction |
-| [Document Center](https://allesclinx.com/support/media-documents/) | Central access to technical and product documentation |
-| [Nova](https://allesclinx.com/nova/) | AI-assisted guidance for hygiene questions and product use |
-| [Insights](https://allesclinx.com/insights/) | Practical writing on chemistry, hygiene, and operations |
+The chemical still has to do the physical work.
 
-## How I approach the work
+Technology should make everything around it clearer: what to buy, how to use it, what it costs, what evidence supports it, when it should be replenished and whether the process was followed correctly.
 
-- Start with the operating environment, not just the product
-- Make safety and documentation part of the system
-- Design for measurable dilution, usage, and cost
-- Keep interfaces clear enough for real teams under real constraints
-- Build for Indian facilities, procurement practices, and workflows
+That is the direction behind Alle’s ClinX.
 
-## Current direction
+## Public work
 
-I’m developing a connected platform around chemistry, documentation, product discovery, procurement support, and AI-assisted operational guidance—so that better hygiene becomes easier to specify, purchase, train, and maintain.
+The [Alle’s ClinX GitHub organization](https://github.com/alles-clinx) maintains public technical resources, structured product data, document indexes and governance files.
+
+The wider public system includes product documentation, facility resources, procurement tools, operating workflows and research published through [Alle’s ClinX Insights](https://allesclinx.com/insights/).
+
+## Current focus
+
+I am focused on building a stronger institutional operating model around:
+
+**chemistry → documentation → guidance → calculation → verification → recurring supply**
+
+The aim is not to make cleaning look like software. It is to use software where it makes real facility work more consistent.
 
 ---
 
 <div align="center">
 
-**Science. Systems. Certainty.**
+**Aditya Kumar**  
+CEO, Alle’s ClinX
 
-[Explore Alle’s ClinX](https://allesclinx.com/) · [View the organization](https://github.com/alles-clinx)
+[allesclinx.com](https://allesclinx.com/) · [github.com/alles-clinx](https://github.com/alles-clinx)
 
 </div>
