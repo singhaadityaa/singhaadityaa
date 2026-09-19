@@ -1,33 +1,18 @@
-<svg width="1200" height="176" viewBox="0 0 1200 176" fill="none" xmlns="http://www.w3.org/2000/svg">
-  <defs>
-    <pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse">
-      <path d="M24 0H0V24" fill="none" stroke="#786c5c" stroke-opacity=".08"/>
-    </pattern>
-  </defs>
+<svg width="1200" height="150" viewBox="0 0 1200 150" fill="none" xmlns="http://www.w3.org/2000/svg">
   <style>
-    .bg{fill:#f8f4ec}.grid{fill:url(#grid)}.label{fill:#5f564d}.sub{fill:#8a8074}.line{stroke:#cfc4b4}.dot{fill:#faf7f1;stroke:#cfc4b4}.olive{fill:#7d8b73}.brass{fill:#b08b57}
-    @media(prefers-color-scheme:dark){.bg{fill:#1a1714}.label{fill:#b2a89c}.sub{fill:#867d73}.line{stroke:#3a322b}.dot{fill:#191613;stroke:#3a322b}.olive{fill:#92a185}.brass{fill:#c39a62}.grid{opacity:.35}}
+    .bg{fill:#f7f4ee}.label{fill:#5f5952}.sub{fill:#8d857b}.line{stroke:#d8d1c7}.dot{fill:#f7f4ee;stroke:#bdb5aa}.active{fill:#7d8772}
+    @media(prefers-color-scheme:dark){.bg{fill:#151412}.label{fill:#b8b0a6}.sub{fill:#888077}.line{stroke:#34302b}.dot{fill:#151412;stroke:#504a43}.active{fill:#96a08b}}
   </style>
-  <rect class="bg" width="1200" height="176" rx="16"/>
-  <rect class="grid" width="1200" height="176" rx="16"/>
-  <text class="sub" x="42" y="32" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Inter,Arial,sans-serif" font-size="11" letter-spacing=".8">OPERATING CHAIN / ALLE’S CLINX</text>
-  <line class="line" x1="105" y1="78" x2="1095" y2="78"/>
+
+  <rect class="bg" width="1200" height="150" rx="16"/>
+  <line class="line" x1="105" y1="58" x2="1095" y2="58"/>
 
   <g font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Inter,Arial,sans-serif" text-anchor="middle">
-    <g transform="translate(105 78)"><circle class="dot" r="9"/><text class="label" y="38" font-size="15">chemistry</text><text class="sub" y="58" font-size="11">pH · dilution</text></g>
-    <g transform="translate(303 78)"><circle class="dot" r="9"/><text class="label" y="38" font-size="15">documentation</text><text class="sub" y="58" font-size="11">sds · tds · sop</text></g>
-    <g transform="translate(501 78)"><circle class="dot" r="9"/><text class="label" y="38" font-size="15">guidance</text><text class="sub" y="58" font-size="11">nova</text></g>
-    <g transform="translate(699 78)"><circle class="dot" r="9"/><text class="label" y="38" font-size="15">calculation</text><text class="sub" y="58" font-size="11">metricon</text></g>
-    <g transform="translate(897 78)"><circle class="dot" r="9"/><text class="label" y="38" font-size="15">verification</text><text class="sub" y="58" font-size="11">checkmate</text></g>
-    <g transform="translate(1095 78)"><circle class="dot" r="9"/><text class="label" y="38" font-size="15">recurring supply</text><text class="sub" y="58" font-size="11">plus</text></g>
+    <g transform="translate(105 58)"><circle class="active" r="6"/><text class="label" y="34" font-size="14">chemistry</text><text class="sub" y="53" font-size="10">pH · dilution</text></g>
+    <g transform="translate(303 58)"><circle class="dot" r="6"/><text class="label" y="34" font-size="14">documentation</text><text class="sub" y="53" font-size="10">sds · tds · sop</text></g>
+    <g transform="translate(501 58)"><circle class="dot" r="6"/><text class="label" y="34" font-size="14">guidance</text><text class="sub" y="53" font-size="10">nova</text></g>
+    <g transform="translate(699 58)"><circle class="dot" r="6"/><text class="label" y="34" font-size="14">calculation</text><text class="sub" y="53" font-size="10">metricon</text></g>
+    <g transform="translate(897 58)"><circle class="dot" r="6"/><text class="label" y="34" font-size="14">verification</text><text class="sub" y="53" font-size="10">checkmate</text></g>
+    <g transform="translate(1095 58)"><circle class="dot" r="6"/><text class="label" y="34" font-size="14">recurring supply</text><text class="sub" y="53" font-size="10">plus</text></g>
   </g>
-
-  <circle cx="105" cy="78" r="6" class="brass">
-    <animateMotion dur="6.8s" repeatCount="indefinite" path="M0 0 H990"/>
-    <animate attributeName="opacity" values=".25;1;1;.25" keyTimes="0;.08;.92;1" dur="6.8s" repeatCount="indefinite"/>
-  </circle>
-  <circle cx="105" cy="78" r="13" class="olive" opacity=".12">
-    <animateMotion dur="6.8s" repeatCount="indefinite" path="M0 0 H990"/>
-    <animate attributeName="r" values="10;15;10" dur="1.4s" repeatCount="indefinite"/>
-  </circle>
 </svg>
