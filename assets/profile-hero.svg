@@ -1,22 +1,79 @@
-<svg width="1200" height="320" viewBox="0 0 1200 320" fill="none" xmlns="http://www.w3.org/2000/svg">
+<svg width="1200" height="360" viewBox="0 0 1200 360" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <filter id="glow" x="-100%" y="-100%" width="300%" height="300%">
+      <feGaussianBlur stdDeviation="7" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <linearGradient id="trail" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#3e6ae1" stop-opacity="0"/>
+      <stop offset=".5" stop-color="#3e6ae1" stop-opacity=".75"/>
+      <stop offset="1" stop-color="#3e6ae1" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
   <style>
-    .bg { fill: #ffffff; }
-    .title { fill: #111827; }
-    .text { fill: #4b5563; }
-    .line { fill: #3e6ae1; }
-    .rule { stroke: #e5e7eb; }
+    .bg { fill:#ffffff; }
+    .title { fill:#111827; }
+    .text { fill:#4b5563; }
+    .muted { fill:#9ca3af; }
+    .rule { stroke:#e5e7eb; }
+    .node { fill:#ffffff; stroke:#d1d5db; }
     @media (prefers-color-scheme: dark) {
-      .bg { fill: #0d1117; }
-      .title { fill: #f0f6fc; }
-      .text { fill: #8b949e; }
-      .rule { stroke: #30363d; }
+      .bg { fill:#0d1117; }
+      .title { fill:#f0f6fc; }
+      .text { fill:#8b949e; }
+      .muted { fill:#6e7681; }
+      .rule { stroke:#30363d; }
+      .node { fill:#0d1117; stroke:#30363d; }
     }
   </style>
-  <rect class="bg" width="1200" height="320" rx="18"/>
-  <rect class="line" x="72" y="64" width="54" height="6" rx="3"/>
-  <text class="title" x="72" y="136" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Inter,Arial,sans-serif" font-size="58" font-weight="650" letter-spacing="-1.8">Aditya Kumar</text>
-  <text class="text" x="72" y="188" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Inter,Arial,sans-serif" font-size="24" font-weight="500">CEO, Alle’s ClinX</text>
-  <line class="rule" x1="72" y1="222" x2="1128" y2="222" stroke-width="1"/>
-  <text class="text" x="72" y="268" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Inter,Arial,sans-serif" font-size="20">Institutional hygiene systems · chemistry · procurement · data · AI</text>
-  <text class="text" x="1128" y="268" text-anchor="end" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Inter,Arial,sans-serif" font-size="20">India</text>
+
+  <rect class="bg" width="1200" height="360" rx="20"/>
+
+  <g opacity="0">
+    <animate attributeName="opacity" from="0" to="1" dur=".7s" fill="freeze"/>
+    <rect x="72" y="58" width="54" height="6" rx="3" fill="#3e6ae1">
+      <animate attributeName="width" values="18;78;54" keyTimes="0;.65;1" dur="1.2s" fill="freeze"/>
+    </rect>
+    <text class="title" x="72" y="139" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Inter,Arial,sans-serif" font-size="60" font-weight="650" letter-spacing="-2">Aditya Kumar</text>
+    <text class="text" x="72" y="190" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Inter,Arial,sans-serif" font-size="24" font-weight="500">CEO, Alle’s ClinX</text>
+  </g>
+
+  <line class="rule" x1="72" y1="232" x2="1128" y2="232" stroke-width="1"/>
+
+  <text class="text" x="72" y="282" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Inter,Arial,sans-serif" font-size="20">
+    Institutional hygiene systems · chemistry · procurement · data · AI
+  </text>
+  <text class="muted" x="72" y="316" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Inter,Arial,sans-serif" font-size="15" letter-spacing=".3">
+    building the intelligence around the chemical
+  </text>
+
+  <g transform="translate(855 102)">
+    <circle class="node" cx="0" cy="0" r="52"/>
+    <circle class="node" cx="118" cy="0" r="52"/>
+    <circle class="node" cx="236" cy="0" r="52"/>
+    <line class="rule" x1="52" y1="0" x2="66" y2="0"/>
+    <line class="rule" x1="170" y1="0" x2="184" y2="0"/>
+
+    <circle cx="0" cy="0" r="8" fill="#3e6ae1">
+      <animate attributeName="r" values="7;10;7" dur="2.2s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values=".65;1;.65" dur="2.2s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="118" cy="0" r="8" fill="#3e6ae1" opacity=".5">
+      <animate attributeName="r" values="7;10;7" dur="2.2s" begin=".7s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values=".4;1;.4" dur="2.2s" begin=".7s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="236" cy="0" r="8" fill="#3e6ae1" opacity=".35">
+      <animate attributeName="r" values="7;10;7" dur="2.2s" begin="1.4s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values=".3;1;.3" dur="2.2s" begin="1.4s" repeatCount="indefinite"/>
+    </circle>
+
+    <circle cx="0" cy="0" r="5" fill="#3e6ae1" filter="url(#glow)">
+      <animateMotion dur="3.8s" repeatCount="indefinite" path="M0 0 H236"/>
+      <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;.08;.92;1" dur="3.8s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+
+  <rect x="820" y="228" width="310" height="2" fill="url(#trail)">
+    <animate attributeName="x" values="760;900;760" dur="6s" repeatCount="indefinite"/>
+  </rect>
 </svg>
