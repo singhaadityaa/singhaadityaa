@@ -1,0 +1,24 @@
+<svg width="1200" height="150" viewBox="0 0 1200 150" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .bg{fill:#f9fafb}.label{fill:#4b5563}.line{stroke:#d1d5db}.dot{fill:#fff;stroke:#d1d5db}
+    @media(prefers-color-scheme:dark){.bg{fill:#161b22}.label{fill:#8b949e}.line{stroke:#30363d}.dot{fill:#161b22;stroke:#30363d}}
+  </style>
+  <rect class="bg" width="1200" height="150" rx="16"/>
+  <line class="line" x1="105" y1="62" x2="1095" y2="62"/>
+  <g font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Inter,Arial,sans-serif" font-size="15" text-anchor="middle">
+    <g transform="translate(105 62)"><circle class="dot" r="8"/><text class="label" y="38">chemistry</text></g>
+    <g transform="translate(303 62)"><circle class="dot" r="8"/><text class="label" y="38">documentation</text></g>
+    <g transform="translate(501 62)"><circle class="dot" r="8"/><text class="label" y="38">guidance</text></g>
+    <g transform="translate(699 62)"><circle class="dot" r="8"/><text class="label" y="38">calculation</text></g>
+    <g transform="translate(897 62)"><circle class="dot" r="8"/><text class="label" y="38">verification</text></g>
+    <g transform="translate(1095 62)"><circle class="dot" r="8"/><text class="label" y="38">recurring supply</text></g>
+  </g>
+  <circle cx="105" cy="62" r="6" fill="#3e6ae1" filter="url(#none)">
+    <animateMotion dur="6s" repeatCount="indefinite" path="M0 0 H990"/>
+    <animate attributeName="r" values="5;7;5" dur="1.2s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="105" cy="62" r="13" fill="#3e6ae1" opacity=".12">
+    <animateMotion dur="6s" repeatCount="indefinite" path="M0 0 H990"/>
+    <animate attributeName="r" values="10;16;10" dur="1.2s" repeatCount="indefinite"/>
+  </circle>
+</svg>
