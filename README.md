@@ -20,6 +20,8 @@ The software layer exists to make that physical system easier to specify, measur
 
 > **The chemical does the physical work. The intelligence belongs around it.**
 
+From dilution logic to pH behavior to evidence checks, I’m interested in building the operating layer around institutional chemistry.
+
 <p align="center">
   <img src="./assets/system-flow.svg" alt="Chemistry to recurring supply operating system" width="100%">
 </p>
