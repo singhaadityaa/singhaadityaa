@@ -1,65 +1,60 @@
-<div align="center">
+<p align="center">
+  <img src="./assets/profile-hero.svg" alt="Aditya Kumar — CEO, Alle’s ClinX" width="100%">
+</p>
 
-# Aditya Kumar
+<p align="center">
+  <a href="https://allesclinx.com/">Alle’s ClinX</a> ·
+  <a href="https://github.com/alles-clinx">Company GitHub</a> ·
+  <a href="https://allesclinx.com/solutions/">Solutions</a> ·
+  <a href="https://allesclinx.com/insights/">Insights</a>
+</p>
 
-### CEO, Alle’s ClinX
+## What I’m building
 
-Building institutional hygiene systems around chemistry, procurement, documentation, data and AI.
+I lead **Alle’s ClinX**, the institutional hygiene systems brand operated by **Champaran Innovatives Private Limited**.
 
-[Alle’s ClinX](https://allesclinx.com/) · [GitHub Organization](https://github.com/alles-clinx) · [Solutions](https://allesclinx.com/solutions/) · [Insights](https://allesclinx.com/insights/)
+The work starts with a physical product and a very ordinary operational problem: facilities need the right chemistry, the right documents, the right usage instructions and a supply system that does not fall apart after purchase.
 
-</div>
+The software layer exists to make that physical system easier to specify, measure, verify and run.
 
----
+> **The chemical does the physical work. The intelligence belongs around it.**
 
-## What I work on
+## The operating system
 
-I lead **Alle’s ClinX**, the institutional hygiene systems brand operated by Champaran Innovatives Private Limited.
-
-My work sits between the physical realities of facility hygiene and the systems around them: product strategy, procurement, recurring supply, technical documentation, usage intelligence and practical software.
-
-I am interested in making institutional cleaning less dependent on fragmented information and more measurable at the point where products are specified, purchased, used and reviewed.
-
-## The system
-
-| Layer | What it does |
+| System | Role |
 |---|---|
-| [Solutions](https://allesclinx.com/solutions/) | Connects facility requirements with product and procurement decisions |
-| [Nova](https://allesclinx.com/about-nova/) | AI-assisted guidance grounded in product and technical information |
-| [Metricon](https://allesclinx.com/metricon/) | Chemistry, usage, procurement and cost calculators |
-| [CheckMate](https://allesclinx.com/checkmate/) | Evidence checks across products, documents, procurement and delivery |
+| [Solutions](https://allesclinx.com/solutions/) | Turns facility requirements into product and procurement decisions |
+| [Nova](https://allesclinx.com/about-nova/) | Product and technical guidance grounded in Alle’s ClinX information |
+| [Metricon](https://allesclinx.com/metricon/) | Chemistry, dosage, usage, procurement and cost calculations |
+| [CheckMate](https://allesclinx.com/checkmate/) | Checks evidence across products, documents, procurement and delivery |
 | [Plus](https://allesclinx.com/plus/) | Recurring institutional supply and operating support |
 | [Document Center](https://allesclinx.com/support/media-documents/) | Public technical and operational documentation |
 
-## How I think about the business
+## How I think about it
 
-The chemical still has to do the physical work.
+I am less interested in making cleaning look like software than in making institutional hygiene **less fragmented**.
 
-Technology should make everything around it clearer: what to buy, how to use it, what it costs, what evidence supports it, when it should be replenished and whether the process was followed correctly.
+A product should be connected to its specification, safety information, usage logic, procurement context and replenishment cycle. When those pieces agree, the facility gets something more useful than another chemical SKU.
 
 That is the direction behind Alle’s ClinX.
 
-## Public work
+## Public infrastructure
 
-The [Alle’s ClinX GitHub organization](https://github.com/alles-clinx) maintains public technical resources, structured product data, document indexes and governance files.
+The [Alle’s ClinX GitHub organization](https://github.com/alles-clinx) is the public technical layer behind part of that work. It includes structured product data, document indexes, governance files and a growing technical library.
 
-The wider public system includes product documentation, facility resources, procurement tools, operating workflows and research published through [Alle’s ClinX Insights](https://allesclinx.com/insights/).
+For the legal and corporate relationship between the company and brand, see the [Champaran Innovatives Private Limited](https://allesclinx.com/champaran-innovatives-private-limited/) reference page.
 
-## Current focus
-
-I am focused on building a stronger institutional operating model around:
+## Current direction
 
 **chemistry → documentation → guidance → calculation → verification → recurring supply**
 
-The aim is not to make cleaning look like software. It is to use software where it makes real facility work more consistent.
+I am building toward a system where those layers reinforce each other rather than living in separate files, inboxes and spreadsheets.
 
 ---
 
-<div align="center">
-
-**Aditya Kumar**  
-CEO, Alle’s ClinX
-
-[allesclinx.com](https://allesclinx.com/) · [github.com/alles-clinx](https://github.com/alles-clinx)
-
-</div>
+<p align="center">
+  <strong>Aditya Kumar</strong><br>
+  CEO, Alle’s ClinX<br><br>
+  <a href="https://allesclinx.com/">allesclinx.com</a> ·
+  <a href="https://github.com/alles-clinx">github.com/alles-clinx</a>
+</p>
