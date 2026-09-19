@@ -5,8 +5,9 @@
 <p align="center">
   <a href="https://allesclinx.com/">Alle’s ClinX</a> ·
   <a href="https://github.com/alles-clinx">Company GitHub</a> ·
-  <a href="https://allesclinx.com/solutions/">Solutions</a> ·
-  <a href="https://allesclinx.com/insights/">Insights</a>
+  <a href="https://allesclinx.com/checkmate/">CheckMate</a> ·
+  <a href="https://allesclinx.com/metricon/">Metricon</a> ·
+  <a href="https://allesclinx.com/plus/">Plus</a>
 </p>
 
 ## What I’m building
@@ -18,6 +19,10 @@ The work starts with a physical product and a very ordinary operational problem:
 The software layer exists to make that physical system easier to specify, measure, verify and run.
 
 > **The chemical does the physical work. The intelligence belongs around it.**
+
+<p align="center">
+  <img src="./assets/system-flow.svg" alt="Chemistry to recurring supply operating system" width="100%">
+</p>
 
 ## The operating system
 
@@ -36,19 +41,11 @@ I am less interested in making cleaning look like software than in making instit
 
 A product should be connected to its specification, safety information, usage logic, procurement context and replenishment cycle. When those pieces agree, the facility gets something more useful than another chemical SKU.
 
-That is the direction behind Alle’s ClinX.
-
 ## Public infrastructure
 
 The [Alle’s ClinX GitHub organization](https://github.com/alles-clinx) is the public technical layer behind part of that work. It includes structured product data, document indexes, governance files and a growing technical library.
 
 For the legal and corporate relationship between the company and brand, see the [Champaran Innovatives Private Limited](https://allesclinx.com/champaran-innovatives-private-limited/) reference page.
-
-## Current direction
-
-**chemistry → documentation → guidance → calculation → verification → recurring supply**
-
-I am building toward a system where those layers reinforce each other rather than living in separate files, inboxes and spreadsheets.
 
 ---
 
