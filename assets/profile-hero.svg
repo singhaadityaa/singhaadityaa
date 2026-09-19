@@ -1,0 +1,22 @@
+<svg width="1200" height="320" viewBox="0 0 1200 320" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .bg { fill: #ffffff; }
+    .title { fill: #111827; }
+    .text { fill: #4b5563; }
+    .line { fill: #3e6ae1; }
+    .rule { stroke: #e5e7eb; }
+    @media (prefers-color-scheme: dark) {
+      .bg { fill: #0d1117; }
+      .title { fill: #f0f6fc; }
+      .text { fill: #8b949e; }
+      .rule { stroke: #30363d; }
+    }
+  </style>
+  <rect class="bg" width="1200" height="320" rx="18"/>
+  <rect class="line" x="72" y="64" width="54" height="6" rx="3"/>
+  <text class="title" x="72" y="136" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Inter,Arial,sans-serif" font-size="58" font-weight="650" letter-spacing="-1.8">Aditya Kumar</text>
+  <text class="text" x="72" y="188" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Inter,Arial,sans-serif" font-size="24" font-weight="500">CEO, Alle’s ClinX</text>
+  <line class="rule" x1="72" y1="222" x2="1128" y2="222" stroke-width="1"/>
+  <text class="text" x="72" y="268" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Inter,Arial,sans-serif" font-size="20">Institutional hygiene systems · chemistry · procurement · data · AI</text>
+  <text class="text" x="1128" y="268" text-anchor="end" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Inter,Arial,sans-serif" font-size="20">India</text>
+</svg>
